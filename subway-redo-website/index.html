@@ -1,173 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/about.css">
-    <link rel="stylesheet" href="./css/home.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
-        rel="stylesheet">
-    <link rel="icon" type="favicon" href="https://cdn.iconscout.com/icon/free/png-256/subway-3442923-2875384.png">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Página del restaurante Subway">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Noelia Fernández">
+        <meta name="theme-color" content="#008938" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/about.css">
+        <link rel="stylesheet" href="./css/home.css">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+            rel="stylesheet">
+        <link rel="icon" type="favicon" href="https://cdn.iconscout.com/icon/free/png-256/subway-3442923-2875384.png">
 
-    <title>Subway | Los bocadillos nº1 en todo el mundo.</title>
-</head>
+        <title>Subway | Los bocadillos nº1 en todo el mundo.</title>
+    </head>
 
-<body>
-    <header class="d-flex flex-column">
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top header" id="myHeader">
-            <div class="container">
-                <a class="navbar-brand" href="#" id="logo-link" aria-label="logo">
-                    <img src="https://www.freepnglogos.com/uploads/subway-png-logo/subway-launches-refreshed-logo-png-12.png" id="logo" alt=""></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation" id="nav-toggler">
-                    <span class="navbar-toggler-icon" id="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarText">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link top-link text-red " href="./index.html">Inicio 
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link top-link text-white " href="./about.html">Sobre nosotros
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link top-link text-white" href="./menu.html">Menú</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link top-link text-white" href="./contact.html">Contacto</a>
-                        </li>
-                    </ul>
-                    <a class="nav-link top-link text-white btn-success" href="./contact.html">Reserva mesa</a>
-                </div>
-            </div>
-        </nav>
-
-        <section class="main-heading">
-            <div>
-                <h1 class="green-text text-center">Eat fresh.</h1>
-                <div class="mt-5 d-flex justify-content-center">
-                    <a href="#featured-menu" class="ml-2"><button class="btn transparent-btn btn-lg"> Ver el menú</button></a>
-                </div>
-            </div>
-        </section>
-    </header>
-
-    <main>
-        <section class="text-center light-black py-5">
-            <h2 class="green-text ">Sobre nosotros</h2>
-            <div class="center-text">
-                <p class="text-white text-center pb-1">Subway es la mejor opción cuando se trata de comida conveniente recién hecha, y sirve sándwiches, wraps y ensaladas exclusivos personalizables para los huéspedes todos los días.</p>
-            </div>
-            <a href="./about.html">
-                <button class="btn transparent-btn btn-lg">Más info:)</button></a>
-        </section>
-
-        <section class="text-center deep-black py-5" id="featured-menu">
-
-            <h2 class="green-text mb-4">Lo más pedido es... </h2>
-            <div class="container">
-                <div class="row m-0">
-                    <div class="col-sm-4 text-center">
-                        <img src="https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/tkejkl4qaev9ye73udwy" class="img-fluid px-sm-5 px-lg-0" alt="bbq-pork">
-                        <h2 class="gold-text mt-3">BBQ Pork </h2>
-                        <p class="text-white mt-4"> Costilla de cerdo bañada en salsa barbacoa                        </p>
-                        <h2 class="text-white mb-3">7.20€</h2>
-                    </div>
-                    <div class="col-sm-4 text-center">
-                        <img src="https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/zszrtmvcjp0pykrok5jw" class="img-fluid px-sm-5 px-lg-0"
-                            alt="wrap-chicken-caesar">
-                        <h2 class="gold-text mt-3">Wrap chicken caesar</h2>
-                        <p class="text-white mt-4"> Con salsa Caesar y hojuelas de parmesano
-                        </p>
-                        <h2 class="text-white mb-3">8.10€</h2>
-                    </div>
-                    <div class="col-sm-4 text-center">
-                        <img src="https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/stykpqfslahjkx7fulxe" class="img-fluid px-sm-5 px-lg-0"
-                            alt="italiano">
-                        <h2 class="gold-text mt-3">Italiano B.M.T. </h2>
-                        <h2 class="text-white mb-3">6.20€</h2>
-                    </div>
-                </div>
-            </div>
-            <a href="./menu.html" class="mt-2">
-                <button class="btn transparent-btn btn-lg"> Ver más</button></a>
-        </section>           
-            
-    </main>
-
-    <div class="container-fluid footer">
-        <footer class="container">
-            <div class="row">
-                <div class="col-md-4 d-flex flex-column bottom-details">
-                    <div>
-                        <div class="footer-top">
-                            <img src="images/logo-2.png" alt="logo" id="footer-logo">
-                        </div>
-                        <p class="info d-flex align-items-center"><img src="./images/phone.png" alt="phone">
-                            <span> 610 78 72 50</span>
-                        </p>
-                        <p class="info d-flex align-items-center"><img src="./images/locator.png"
-                                alt="location"> <span>Avinguda de l'Olivera, 13, Local 5, 07181 Magaluf, Illes Balears</span></p>
-                        <p class="info d-flex align-items-center"><img src="./images/email.png" alt="mail">
-                            <span>cs@subway.com</span>
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-4 d-flex flex-column align-items-md-center bottom-details">
-                    <div>
-                        <div class="footer-top">
-                            <h3 class="green-text">Horario</h3>
-                        </div>
-                        <p>Sucursal Aeropuerto Son San Joan: <br><span class="time">7h a 23h</span></p>
-                        <p>Sucursal Magaluf<br><span class="time">10h a 02h</span></p>
-                    </div>
-                </div>
-                <div class="col-md-4 d-flex flex-column align-items-md-center bottom-details">
-                    <div style="margin-bottom:1rem">
-                        <div class="footer-top">
-                            <h3 class="green-text">No te pierdas las novedades, 
-                                síguenos :)</h3>
-                        </div>
-                        <div class="row pl-1">
-                            <div>
-                                <a href="https://www.facebook.com/subwayspain/"><img src="./images/facebook.png" alt="facebook link"
-                                        class="social-icon ml-lg-3 mr-2">
+    <body>
+        <header class="d-flex flex-column">
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top header" id="myHeader">
+                <div class="container">
+                    <a class="navbar-brand" href="#" id="logo-link" aria-label="logo">
+                        <img src="https://www.freepnglogos.com/uploads/subway-png-logo/subway-launches-refreshed-logo-png-12.png"
+                            id="logo" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation"
+                        id="nav-toggler">
+                        <span class="navbar-toggler-icon" id="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link top-link text-red " href="./index.html">Inicio
                                 </a>
-                            </div>
-                            <div>
-                                <a href="https://twitter.com/subwayspain?lang=es"><img src="./images/twitter.png" alt="twitter link"
-                                        class="social-icon mr-2">
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link top-link text-white " href="./about.html">Sobre nosotros
                                 </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link top-link text-white" href="./menu.html">Menú</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link top-link text-white" href="./contact.html">Contacto</a>
+                            </li>
+                        </ul>
+                        <a class="nav-link top-link text-white btn-success" href="./contact.html">Reserva mesa</a>
+                    </div>
+                </div>
+            </nav>
+
+            <section class="main-heading">
+                <div>
+                    <h1 class="green-text text-center">Eat fresh.</h1>
+                    <div class="mt-5 d-flex justify-content-center">
+                        <a href="#featured-menu" class="ml-2"><button class="btn transparent-btn btn-lg"> Ver el
+                                menú</button></a>
+                    </div>
+                </div>
+            </section>
+        </header>
+
+        <main>
+            <section class="text-center light-black py-5">
+                <h2 class="green-text ">Sobre nosotros</h2>
+                <div class="center-text">
+                    <p class="text-white text-center pb-1">Subway es la mejor opción cuando se trata de comida
+                        conveniente recién hecha, y sirve sándwiches, wraps y ensaladas exclusivos personalizables para
+                        los huéspedes todos los días.</p>
+                </div>
+                <a href="./about.html">
+                    <button class="btn transparent-btn btn-lg">Más info:)</button></a>
+            </section>
+
+            <section class="text-center deep-black py-5" id="featured-menu">
+
+                <h2 class="green-text mb-4">Lo más pedido es... </h2>
+                <div class="container">
+                    <div class="row m-0">
+                        <div class="col-sm-4 text-center">
+                            <img src="https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/tkejkl4qaev9ye73udwy"
+                                class="img-fluid px-sm-5 px-lg-0" alt="bbq-pork">
+                            <h2 class="gold-text mt-3">BBQ Pork </h2>
+                            <p class="text-white mt-4"> Costilla de cerdo bañada en salsa barbacoa </p>
+                            <h2 class="text-white mb-3">7.20€</h2>
+                        </div>
+                        <div class="col-sm-4 text-center">
+                            <img src="https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/zszrtmvcjp0pykrok5jw"
+                                class="img-fluid px-sm-5 px-lg-0" alt="wrap-chicken-caesar">
+                            <h2 class="gold-text mt-3">Wrap chicken caesar</h2>
+                            <p class="text-white mt-4"> Con salsa Caesar y hojuelas de parmesano
+                            </p>
+                            <h2 class="text-white mb-3">8.10€</h2>
+                        </div>
+                        <div class="col-sm-4 text-center">
+                            <img src="https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/stykpqfslahjkx7fulxe"
+                                class="img-fluid px-sm-5 px-lg-0" alt="italiano">
+                            <h2 class="gold-text mt-3">Italiano B.M.T. </h2>
+                            <h2 class="text-white mb-3">6.20€</h2>
+                        </div>
+                    </div>
+                </div>
+                <a href="./menu.html" class="mt-2">
+                    <button class="btn transparent-btn btn-lg"> Ver más</button></a>
+            </section>
+
+        </main>
+
+        <div class="container-fluid footer">
+            <footer class="container">
+                <div class="row">
+                    <div class="col-md-4 d-flex flex-column bottom-details">
+                        <div>
+                            <div class="footer-top">
+                                <img src="images/logo-2.png" alt="logo" id="footer-logo">
                             </div>
-                            <div>
-                                <a href="https://www.instagram.com/subwayespana/?hl=es%C2%A0"><img src="images\instagram.png" alt="instagram link"
-                                        class="social-icon mr-2">
-                                </a>
+                            <p class="info d-flex align-items-center"><img src="./images/phone.png" alt="phone">
+                                <span> 610 78 72 50</span>
+                            </p>
+                            <p class="info d-flex align-items-center"><img src="./images/locator.png" alt="location">
+                                <span>Avinguda de l'Olivera, 13, Local 5, 07181 Magaluf, Illes Balears</span></p>
+                            <p class="info d-flex align-items-center"><img src="./images/email.png" alt="mail">
+                                <span>cs@subway.com</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-flex flex-column align-items-md-center bottom-details">
+                        <div>
+                            <div class="footer-top">
+                                <h3 class="green-text">Horario</h3>
+                            </div>
+                            <p>Sucursal Aeropuerto Son San Joan: <br><span class="time">7h a 23h</span></p>
+                            <p>Sucursal Magaluf<br><span class="time">10h a 02h</span></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-flex flex-column align-items-md-center bottom-details">
+                        <div style="margin-bottom:1rem">
+                            <div class="footer-top">
+                                <h3 class="green-text">No te pierdas las novedades,
+                                    síguenos :)</h3>
+                            </div>
+                            <div class="row pl-1">
+                                <div>
+                                    <a href="https://www.facebook.com/subwayspain/"><img src="./images/facebook.png"
+                                            alt="facebook link" class="social-icon ml-lg-3 mr-2">
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="https://twitter.com/subwayspain?lang=es"><img src="./images/twitter.png"
+                                            alt="twitter link" class="social-icon mr-2">
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="https://www.instagram.com/subwayespana/?hl=es%C2%A0"><img
+                                            src="images\instagram.png" alt="instagram link" class="social-icon mr-2">
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div style="margin-top: 50px;">
-                <span id="bottom" class="green-text"> &copy;
-                    2022 Noelia F. , All right reserved </span>
-            </div>
-        </footer>
-    </div>   
+                <div style="margin-top: 50px;">
+                    <span id="bottom" class="green-text"> &copy;
+                        2022 Noelia F. , All right reserved </span>
+                </div>
+            </footer>
+        </div>
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
-<script src="js\about.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-    </script>
-</body>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+            </script>
+        <script src="js\about.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+            </script>
+    </body>
 
 </html>
