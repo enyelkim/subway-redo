@@ -4,7 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link
+  <meta name="description" content="Página del restaurante Subway">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Noelia Fernández">
+  <meta name="theme-color" content="#008938"/>  <link
     href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -58,7 +61,7 @@
     </div>
   </div>
   <section class="contact container">
-    <h3 class="pt-5 pb-3 yellow text-center-sm">Estamos aquí para ti :)</h3>
+    <h2 class="pt-5 pb-3 yellow text-center-sm">Estamos aquí para ti :)</h2>
     <div class="row mr-0 ml-0 pt-3 pb-5 justify-content-between">
       <div class="col-sm-12 col-md-6 pr-md-4 mb-5 pr-0 px-0">
         <p>
@@ -70,15 +73,17 @@
         <form action="">
           <input type="text" name="name" class="my-4" placeholder="Tu nombre" required>
           <input type="email" name="email" class="my-4" placeholder="Tu email" required>
-          <input type="date" name="fecha" class="my-4" min="2022-10-29" max="2030-12-30" step="3" />
-          <input type="time" name="hora" class="my-4" min="7:00" max="23:00" step="3600" />
+          <input type="date" name="fecha" class="my-4" min="2022-10-29" max="2030-12-30" step="3" placeholder="fecha"/>
+          <input type="time" name="hora" class="my-4" min="7:00" max="23:00" step="3600" placeholder="hora"/>
           <textarea name="message" cols="30" rows="7" class="my-4" placeholder="Escribe aquí tu mensaje" required></textarea>
           <button type="submit">Enviar</button>
         </form>
       </div>
       <div class="col-sm-12 col-md-6 pl-md-4 mt-0 px-0">
         <div class="map">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12313.098497198936!2d2.5322299!3d39.5082911!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe67cfbf0c18a96d!2sSUBWAY%20Magalluf!5e0!3m2!1ses!2ses!4v1666986547532!5m2!1ses!2ses" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe title="Mapa del restaurante" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12313.098497198936!2d2.5322299!3d39.5082911!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe67cfbf0c18a96d!2sSUBWAY%20Magalluf!5e0!3m2!1ses!2ses!4v1666986547532!5m2!1ses!2ses" 
+          width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
           
           <p class="info d-flex align-items-center"><img src="./images/locator.png" alt="location">
             <span>Avinguda de l'Olivera, 13, Local 5, 07181 Magaluf, Illes Balears</span></p>
