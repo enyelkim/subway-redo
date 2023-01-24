@@ -9,6 +9,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+img{
+  width: 100%;
+  height: auto;
+}
+
+#logo {
+  height: auto;
+  width: 100px;
+}
+
 a,
 a:hover {
   text-decoration: none !important;
@@ -135,6 +145,7 @@ footer > div {
   h1 {
     font-size: 3rem;
   }
+
 
   #logo {
     width: 100px;
