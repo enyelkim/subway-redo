@@ -278,6 +278,29 @@ footer h3,
   margin: 0 10px;
 }
 
+
+body::-webkit-scrollbar {
+  background-image: url("https://w0.peakpx.com/wallpaper/772/905/HD-wallpaper-cheese-texture-close-up-food-textures-slices-of-cheese-macro-creative-cheese.jpg");
+  scrollbar-shadow-color: #000 2px;
+  width: 1.5em;
+  border-radius: 25px;
+}
+
+body::-webkit-scrollbar-track:vertical {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+
+}
+
+body::-webkit-scrollbar-thumb {
+  background-image: url("/images/sandwich-scrollbar.png"),
+    linear-gradient(100deg, transparent, transparent);
+  background-position: center bottom, center -40px top;
+  background-repeat: no-repeat, no-repeat; 
+  background-size: contain; 
+
+}
+
+
 @media only screen and (max-width: 1024px) {
   .team {
     min-height: 510px;
